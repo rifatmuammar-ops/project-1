@@ -1,0 +1,16 @@
+.kotak1{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+text-align: center;
+display: flex;
+
+}
+
+body{
+    height: 600px;
+    width: 1350px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}

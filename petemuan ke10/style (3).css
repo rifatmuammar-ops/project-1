@@ -1,0 +1,46 @@
+.banner {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(72, 72, 255);
+    color: white;
+    opacity: 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: translateY(-100);
+    animation: turun 2s ease-in-out forwards alternate;
+}
+
+@keyframes turun {
+    0%{opacity: 0.5; transform: translateY(-20);}
+    50%{opacity: 1; transform: translateY(-10);}
+    100%{opacity: 1; transform: translateY(0);}
+    
+}
+
+.box { 
+    font-size: 20px;
+    width: 350px;
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    margin: 24px auto;
+    animation-name: fadein;
+    animation-duration: 2s;
+    }
+
+@keyframes fadein {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
